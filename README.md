@@ -1,5 +1,7 @@
 # virtual-file-system
 To run:
-	cd app
-	g++ main.cpp
-	./a.out
+	mkdir build
+	cd build
+	cmkae ..
+	make
+	./vfs
