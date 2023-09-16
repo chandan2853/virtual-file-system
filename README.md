@@ -1,7 +1,11 @@
-# virtual-file-system
+# virtual-file-system #
 To run:
 	mkdir build
+ 
 	cd build
-	cmkae ..
+ 
+	cmake ..
+ 
 	make
+ 
 	./vfs
