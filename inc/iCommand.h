@@ -6,6 +6,7 @@
 #include <vector>
 #include <memory>
 #include "virtualFileSystem.h"
+
 class ICommand
 {
     public:

@@ -1,8 +1,8 @@
-#include "./gtest/gtest.h"
-#include "../inc/iCommand.h"
-#include "../src/commandParser.cpp"
-#include "../src/commandList.cpp"
-#include "../inc/virtualFileSystemComponents.h"
+#include <gtest/gtest.h>
+#include "iCommand.h"
+#include "CommandParser.h"
+#include "commandList.h"
+#include "virtualFileSystemComponents.h"
 
 std::shared_ptr<VirtualFileSystem> filesystem = std::make_shared<VirtualFileSystem>();
 CommandParser parse;

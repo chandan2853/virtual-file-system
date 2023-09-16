@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../inc/virtualFileSystem.h"
+#include "virtualFileSystem.h"
 
 VirtualFileSystem::VirtualFileSystem()
 {

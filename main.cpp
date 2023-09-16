@@ -1,10 +1,11 @@
 #include <iostream>
 #include <string>
 #include <sstream>
-#include "../inc/iCommand.h"
-#include "../src/commandParser.cpp"
-#include "../src/commandList.cpp"
-#include "../inc/virtualFileSystemComponents.h"
+#include "iCommand.h"
+#include "CommandParser.h"
+#include "commandList.h"
+#include "virtualFileSystemComponents.h"
+
 int main()
 {
     std::string inputCommand;

@@ -1,6 +1,6 @@
 #include<sstream>
-#include "../inc/virtualFileSystem.h"
-#include "../inc/CommandParser.h"
+#include "virtualFileSystem.h"
+#include "CommandParser.h"
 
 bool CommandParser::commandParse(std::string inputCommand, std::shared_ptr<VirtualFileSystem> filesystem)
 {

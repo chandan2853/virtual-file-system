@@ -1,6 +1,6 @@
 #include <iostream>
-#include "../inc/commandList.h"
-#include "virtualFileSystem.cpp"
+#include "commandList.h"
+#include "virtualFileSystem.h"
 
 
 bool RMCommand ::executeCommand(std::vector<std::string> command, std::shared_ptr<VirtualFileSystem> filesystem)
